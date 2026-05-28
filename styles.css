@@ -119,7 +119,7 @@ body {
 /* RESULT SCREEN */
 
 #result-screen h1 {
-  color: #336ae8;
+  color: #8B4513;
   margin-bottom: 30px;
 }
 
@@ -139,7 +139,7 @@ body {
 #result-message {
   font-size: 1.5rem;
   font-weight: 600;
-  color: #336ae8;
+  color:#8B4513;
 }
 
 button {
