@@ -428,3 +428,414 @@ const quizSections = [
   ]
 },
 // CODING BASICS
+{
+  title: "Coding Basics",
+  questions: [
+    {
+      question: "Which language is used for web styling?",
+      answers: [
+        { text: "HTML", correct: false },
+        { text: "CSS", correct: true },
+        { text: "JavaScript", correct: false },
+        { text: "Python", correct: false },
+      ],
+    },
+    {
+      question: "What does 'JS' stand for?",
+      answers: [
+        { text: "Java Syntax", correct: false },
+        { text: "JavaScript", correct: true },
+        { text: "Just Style", correct: false },
+        { text: "JQuery Script", correct: false },
+      ],
+    },
+    {
+      question: "Which language is mainly used to structure web pages?",
+      answers: [
+        { text: "HTML", correct: true },
+        { text: "CSS", correct: false },
+        { text: "Python", correct: false },
+        { text: "C++", correct: false },
+      ],
+    },
+    {
+      question: "Which symbol is used to end a statement in JavaScript?",
+      answers: [
+        { text: ";", correct: true },
+        { text: ":", correct: false },
+        { text: ".", correct: false },
+        { text: ",", correct: false },
+      ],
+    },
+    {
+      question: "Which tag is used to display an image in HTML?",
+      answers: [
+        { text: "<img>", correct: true },
+        { text: "<image>", correct: false },
+        { text: "<pic>", correct: false },
+        { text: "<src>", correct: false },
+      ],
+    },
+    {
+      question: "Which operator is used for addition in most programming languages?",
+      answers: [
+        { text: "+", correct: true },
+        { text: "-", correct: false },
+        { text: "*", correct: false },
+        { text: "/", correct: false },
+      ],
+    },
+    {
+      question: "Which keyword is used to declare a variable in JavaScript?",
+      answers: [
+        { text: "var", correct: true },
+        { text: "int", correct: false },
+        { text: "let", correct: true }, // both var and let are valid
+        { text: "define", correct: false },
+      ],
+    },
+    {
+      question: "Which language is commonly used for backend development?",
+      answers: [
+        { text: "Python", correct: true },
+        { text: "CSS", correct: false },
+        { text: "HTML", correct: false },
+        { text: "Photoshop", correct: false },
+      ],
+    },
+    {
+      question: "Which symbol is used for comments in JavaScript?",
+      answers: [
+        { text: "//", correct: true },
+        { text: "##", correct: false },
+        { text: "--", correct: false },
+        { text: "\\\\", correct: false },
+      ],
+    },
+    {
+      question: "Which of these is a version control system?",
+      answers: [
+        { text: "Git", correct: true },
+        { text: "CSS", correct: false },
+        { text: "HTML", correct: false },
+        { text: "Excel", correct: false },
+      ],
+    },
+    {
+      question: "Which file extension is used for JavaScript files?",
+      answers: [
+        { text: ".js", correct: true },
+        { text: ".java", correct: false },
+        { text: ".jsx", correct: false },
+        { text: ".py", correct: false },
+      ],
+    },
+    {
+      question: "Which HTML tag is used for links?",
+      answers: [
+        { text: "<a>", correct: true },
+        { text: "<link>", correct: false },
+        { text: "<href>", correct: false },
+        { text: "<url>", correct: false },
+      ],
+    },
+    {
+      question: "Which language is used for web styling?",
+      answers: [
+        { text: "HTML", correct: false },
+        { text: "CSS", correct: true },
+        { text: "JavaScript", correct: false },
+        { text: "Python", correct: false },
+      ],
+    },
+    {
+      question: "What does 'JS' stand for?",
+      answers: [
+        { text: "Java Syntax", correct: false },
+        { text: "JavaScript", correct: true },
+        { text: "Just Style", correct: false },
+        { text: "JQuery Script", correct: false },
+      ],
+    },
+    {
+      question: "Which HTML tag is used to create a hyperlink?",
+      answers: [
+        { text: "<a>", correct: true },
+        { text: "<link>", correct: false },
+        { text: "<href>", correct: false },
+        { text: "<url>", correct: false },
+      ],
+    },
+    {
+      question: "Which symbol is used for multiplication in most programming languages?",
+      answers: [
+        { text: "*", correct: true },
+        { text: "x", correct: false },
+        { text: "#", correct: false },
+        { text: "&", correct: false },
+      ],
+    },
+    {
+      question: "Which HTML tag is used to display a heading?",
+      answers: [
+        { text: "<h1>", correct: true },
+        { text: "<head>", correct: false },
+        { text: "<title>", correct: false },
+        { text: "<p>", correct: false },
+      ],
+    },
+    {
+      question: "Which keyword is used to define a constant in JavaScript?",
+      answers: [
+        { text: "const", correct: true },
+        { text: "var", correct: false },
+        { text: "let", correct: false },
+        { text: "static", correct: false },
+      ],
+    },
+    {
+      question: "Which file extension is used for CSS files?",
+      answers: [
+        { text: ".css", correct: true },
+        { text: ".style", correct: false },
+        { text: ".html", correct: false },
+        { text: ".js", correct: false },
+      ],
+    },
+    {
+      question: "Which programming language is known for its snake logo?",
+      answers: [
+        { text: "Python", correct: true },
+        { text: "Java", correct: false },
+        { text: "C#", correct: false },
+        { text: "Ruby", correct: false },
+      ],
+    },
+    {
+      question: "Which HTML tag is used to create a list with bullet points?",
+      answers: [
+        { text: "<ul>", correct: true },
+        { text: "<ol>", correct: false },
+        { text: "<li>", correct: false },
+        { text: "<list>", correct: false },
+      ],
+    },
+    {
+      question: "Which operator is used to compare equality in JavaScript?",
+      answers: [
+        { text: "==", correct: true },
+        { text: "=", correct: false },
+        { text: "===", correct: true }, // both == and === are valid
+        { text: "!=", correct: false },
+      ],
+    },
+    {
+      question: "Which HTML tag is used to insert a line break?",
+      answers: [
+        { text: "<br>", correct: true },
+        { text: "<break>", correct: false },
+        { text: "<lb>", correct: false },
+        { text: "<newline>", correct: false },
+      ],
+    },
+    {
+      question: "Which language is used to make web pages interactive?",
+      answers: [
+        { text: "JavaScript", correct: true },
+        { text: "CSS", correct: false },
+        { text: "HTML", correct: false },
+        { text: "SQL", correct: false },
+      ],
+    },
+     {
+      question: "Which HTML tag is used to create a numbered list?",
+      answers: [
+        { text: "<ol>", correct: true },
+        { text: "<ul>", correct: false },
+        { text: "<li>", correct: false },
+        { text: "<list>", correct: false },
+      ],
+    },
+    {
+      question: "Which symbol is used for division in most programming languages?",
+      answers: [
+        { text: "/", correct: true },
+        { text: "\\", correct: false },
+        { text: "-", correct: false },
+        { text: "*", correct: false },
+      ],
+    },
+    {
+      question: "Which HTML tag is used to display a paragraph?",
+      answers: [
+        { text: "<p>", correct: true },
+        { text: "<para>", correct: false },
+        { text: "<text>", correct: false },
+        { text: "<div>", correct: false },
+      ],
+    },
+    {
+      question: "Which keyword is used to declare a function in JavaScript?",
+      answers: [
+        { text: "function", correct: true },
+        { text: "def", correct: false },
+        { text: "method", correct: false },
+        { text: "func", correct: false },
+      ],
+    },
+    {
+      question: "Which file extension is used for HTML files?",
+      answers: [
+        { text: ".html", correct: true },
+        { text: ".htm", correct: true }, // both are valid
+        { text: ".css", correct: false },
+        { text: ".js", correct: false },
+      ],
+    },
+    {
+      question: "Which programming language is mainly used for database queries?",
+      answers: [
+        { text: "SQL", correct: true },
+        { text: "Python", correct: false },
+        { text: "JavaScript", correct: false },
+        { text: "HTML", correct: false },
+      ],
+    },
+    {
+      question: "Which HTML tag is used to insert a table?",
+      answers: [
+        { text: "<table>", correct: true },
+        { text: "<tab>", correct: false },
+        { text: "<tr>", correct: false },
+        { text: "<td>", correct: false },
+      ],
+    },
+    {
+      question: "Which operator is used to check inequality in JavaScript?",
+      answers: [
+        { text: "!=", correct: true },
+        { text: "==", correct: false },
+        { text: "=", correct: false },
+        { text: "!==", correct: true }, // both != and !== are valid
+      ],
+    },
+    {
+      question: "Which HTML tag is used to embed a video?",
+      answers: [
+        { text: "<video>", correct: true },
+        { text: "<vid>", correct: false },
+        { text: "<media>", correct: false },
+        { text: "<movie>", correct: false },
+      ],
+    },
+    {
+      question: "Which programming language is often used for mobile app development?",
+      answers: [
+        { text: "Java", correct: true },
+        { text: "CSS", correct: false },
+        { text: "HTML", correct: false },
+        { text: "SQL", correct: false },
+      ],
+    },
+    {
+      question: "Which HTML tag is used to display an image?",
+      answers: [
+        { text: "<img>", correct: true },
+        { text: "<image>", correct: false },
+        { text: "<pic>", correct: false },
+        { text: "<src>", correct: false },
+      ],
+    },
+    {
+      question: "Which keyword is used to declare a variable in JavaScript?",
+      answers: [
+        { text: "var", correct: true },
+        { text: "let", correct: true }, // both valid
+        { text: "int", correct: false },
+        { text: "define", correct: false },
+      ],
+    },
+    {
+      question: "Which file extension is used for Python files?",
+      answers: [
+        { text: ".py", correct: true },
+        { text: ".js", correct: false },
+        { text: ".java", correct: false },
+        { text: ".html", correct: false },
+      ],
+    },
+    {
+      question: "Which HTML tag is used to create a form?",
+      answers: [
+        { text: "<form>", correct: true },
+        { text: "<input>", correct: false },
+        { text: "<submit>", correct: false },
+        { text: "<fieldset>", correct: false },
+      ],
+    },
+    {
+      question: "Which operator is used for assignment in most programming languages?",
+      answers: [
+        { text: "=", correct: true },
+        { text: "==", correct: false },
+        { text: "===", correct: false },
+        { text: "=>", correct: false },
+      ],
+    },
+    {
+      question: "Which HTML tag is used to create a table row?",
+      answers: [
+        { text: "<tr>", correct: true },
+        { text: "<td>", correct: false },
+        { text: "<th>", correct: false },
+        { text: "<row>", correct: false },
+      ],
+    },
+    {
+      question: "Which language is used to style web pages?",
+      answers: [
+        { text: "CSS", correct: true },
+        { text: "HTML", correct: false },
+        { text: "JavaScript", correct: false },
+        { text: "Python", correct: false },
+      ],
+    },
+    {
+      question: "Which symbol is used for comments in Python?",
+      answers: [
+        { text: "#", correct: true },
+        { text: "//", correct: false },
+        { text: "/* */", correct: false },
+        { text: "--", correct: false },
+      ],
+    },
+    {
+      question: "Which HTML tag is used to create a hyperlink?",
+      answers: [
+        { text: "<a>", correct: true },
+        { text: "<link>", correct: false },
+        { text: "<href>", correct: false },
+        { text: "<url>", correct: false },
+      ],
+    },
+    {
+      question: "Which keyword is used to define a function in Python?",
+      answers: [
+        { text: "def", correct: true },
+        { text: "function", correct: false },
+        { text: "method", correct: false },
+        { text: "fun", correct: false },
+      ],
+    },
+    {
+      question: "Which HTML tag is used to create a list item?",
+      answers: [
+        { text: "<li>", correct: true },
+        { text: "<ul>", correct: false },
+        { text: "<ol>", correct: false },
+        { text: "<list>", correct: false },
+      ],
+    }
+  ]
+},
+// KENYAN HISTORY
