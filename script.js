@@ -1332,3 +1332,23 @@ function selectAnswer(event) {
 }, 1000);
 
 }
+function nextQuestionOrSection() {
+  currentQuestionIndex++;
+
+  const currentSection = quizSections[currentSectionIndex];
+
+  if (currentQuestionIndex < currentSection.questions.length) {
+    showQuestion();
+  } else {
+    // section finished
+    currentSectionIndex++;
+    currentQuestionIndex = 0;
+
+    if (currentSectionIndex < quizSections.length) {
+      alert("Section complete! Next: " + quizSections[currentSectionIndex].title);
+      showQuestion();
+    } else {
+      showResults();
+    }
+  }
+}
