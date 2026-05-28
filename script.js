@@ -1267,3 +1267,14 @@ maxScoreSpan.textContent = totalQuestions; // show overall total
 // event listeners
 startButton.addEventListener("click", startQuiz);
 restartButton.addEventListener("click", restartQuiz);
+function startQuiz() {
+  // reset vars
+  currentQuestionIndex = 0;
+  score = 0;
+  scoreSpan.textContent = 0;
+
+  startScreen.classList.remove("active");
+  quizScreen.classList.add("active");
+
+  showQuestion();
+}
