@@ -112,7 +112,7 @@ body {
 
 .progress {
   height: 100%;
-  background-color: #336ae8;
+  background-color: #8B4513; /* Saddle Brown */
   width: 0%;
   transition: width 0.3s ease;
 }
