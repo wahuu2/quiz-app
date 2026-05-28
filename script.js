@@ -1250,3 +1250,14 @@ const quizSections = [
 ],
 },
 ];
+
+// QUIZ STATE VARS
+let currentSectionIndex = 0;
+let currentQuestionIndex = 0;
+let score = 0;
+let answersDisabled = false;
+
+const totalQuestions = quizSections.reduce(
+  (sum, section) => sum + section.questions.length,
+  0
+);
