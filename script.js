@@ -1278,3 +1278,57 @@ function startQuiz() {
 
   showQuestion();
 }
+function showQuestion() {
+  answersDisabled = false;
+
+  const currentSection = quizSections[currentSectionIndex];
+  const currentQuestion = currentSection.questions[currentQuestionIndex];
+
+  sectionTitle.textContent = currentSection.title;
+  currentQuestionSpan.textContent = currentQuestionIndex + 1;
+  totalQuestionsSpan.textContent = currentSection.questions.length;
+
+  const progressPercent = (currentQuestionIndex / currentSection.questions.length) * 100;
+  progressBar.style.width = progressPercent + "%";
+
+  questionText.textContent = currentQuestion.question;
+  answersContainer.innerHTML = "";
+
+  currentQuestion.answers.forEach((answer) => {
+    const button = document.createElement("button");
+    button.textContent = answer.text;
+    button.classList.add("answer-btn");
+    button.dataset.correct = answer.correct;
+    button.addEventListener("click", selectAnswer);
+    answersContainer.appendChild(button);
+  });
+}
+
+function selectAnswer(event) {
+  // optimization check
+  if (answersDisabled) return;
+
+  answersDisabled = true;
+
+  const selectedButton = event.target;
+  const isCorrect = selectedButton.dataset.correct === "true";
+
+  // Here Array.from() is used to convert the NodeList returned by answersContainer.children into an array, this is because the NodeList is not an array and we need to use the forEach method
+  Array.from(answersContainer.children).forEach((button) => {
+    if (button.dataset.correct === "true") {
+      button.classList.add("correct");
+    } else if (button === selectedButton) {
+      button.classList.add("incorrect");
+    }
+  });
+
+  if (isCorrect) {
+    score++;
+    scoreSpan.textContent = score;
+  }
+
+ setTimeout(() => {
+  nextQuestionOrSection();
+}, 1000);
+
+}
