@@ -1261,3 +1261,9 @@ const totalQuestions = quizSections.reduce(
   (sum, section) => sum + section.questions.length,
   0
 );
+totalQuestionsSpan.textContent = quizSections[0].questions.length; // show per section
+maxScoreSpan.textContent = totalQuestions; // show overall total
+
+// event listeners
+startButton.addEventListener("click", startQuiz);
+restartButton.addEventListener("click", restartQuiz);
