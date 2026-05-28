@@ -91,15 +91,15 @@ body {
 }
 
 .answer-btn.correct {
-  background-color: #e6fff0;
-  border-color: #a3f0c4;
-  color: #28a745;
+  background-color: #f0e6d2; /* light beige */
+  border-color: #c4a484; /* tan */
+  color: #228B22; /* keep green for clarity */
 }
 
 .answer-btn.incorrect {
-  background-color: #fff0f0;
-  border-color: #ffbdbd;
-  color: #dc3545;
+  background-color: #fceaea;
+  border-color: #e0a899;
+  color: #B22222; /* firebrick red */
 }
 
 .progress-bar {
