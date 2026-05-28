@@ -839,3 +839,414 @@ const quizSections = [
   ]
 },
 // KENYAN HISTORY
+{
+    title: "Kenyan History",
+    questions: [
+      {
+        question: "Who was Kenya's first President?",
+        answers: [
+          { text: "Jomo Kenyatta", correct: true },
+          { text: "Daniel arap Moi", correct: false },
+          { text: "Mwai Kibaki", correct: false },
+          { text: "Uhuru Kenyatta", correct: false },
+        ],
+      },
+  {
+    question: "In which year did Kenya gain independence?",
+    answers: [
+      { text: "1950", correct: false },
+      { text: "1963", correct: true },
+      { text: "1978", correct: false },
+      { text: "1980", correct: false },
+    ],
+  },
+  {
+    question: "Which city is the capital of Kenya?",
+    answers: [
+      { text: "Mombasa", correct: false },
+      { text: "Nairobi", correct: true },
+      { text: "Kisumu", correct: false },
+      { text: "Nakuru", correct: false },
+    ],
+  },
+  {
+    question: "What was the name of the movement that fought for Kenya's independence?",
+    answers: [
+      { text: "Mau Mau", correct: true },
+      { text: "Zulu", correct: false },
+      { text: "Ashanti", correct: false },
+      { text: "Shona", correct: false },
+    ],
+  },
+  {
+    question: "Who was Kenya's second President?",
+    answers: [
+      { text: "Mwai Kibaki", correct: false },
+      { text: "Daniel arap Moi", correct: true },
+      { text: "Uhuru Kenyatta", correct: false },
+      { text: "William Ruto", correct: false },
+    ],
+  },
+  {
+    question: "Which British colony did Kenya belong to before independence?",
+    answers: [
+      { text: "British East Africa", correct: true },
+      { text: "British West Africa", correct: false },
+      { text: "British South Africa", correct: false },
+      { text: "British North Africa", correct: false },
+    ],
+  },
+  {
+    question: "Who was Kenya's first Vice President?",
+    answers: [
+      { text: "Jaramogi Oginga Odinga", correct: true },
+      { text: "Daniel arap Moi", correct: false },
+      { text: "George Saitoti", correct: false },
+      { text: "Musalia Mudavadi", correct: false },
+    ],
+  },
+  {
+    question: "Which year did Kenya become a republic?",
+    answers: [
+      { text: "1963", correct: false },
+      { text: "1964", correct: true },
+      { text: "1970", correct: false },
+      { text: "1982", correct: false },
+    ],
+  },
+  {
+    question: "What is the name of Kenya's national anthem?",
+    answers: [
+      { text: "Ee Mungu Nguvu Yetu", correct: true },
+      { text: "God Save the Queen", correct: false },
+      { text: "Lift Every Voice", correct: false },
+      { text: "Nkosi Sikelel' iAfrika", correct: false },
+    ],
+  },
+  {
+    question: "Which Kenyan leader is known as the 'Professor of Politics'?",
+    answers: [
+      { text: "Daniel arap Moi", correct: false },
+      { text: "Tom Mboya", correct: false },
+      { text: "Mwai Kibaki", correct: true },
+      { text: "Jomo Kenyatta", correct: false },
+    ],
+  },
+  {
+    question: "Which uprising played a major role in Kenya's independence struggle?",
+    answers: [
+      { text: "Mau Mau Uprising", correct: true },
+      { text: "Zulu Rebellion", correct: false },
+      { text: "Boer War", correct: false },
+      { text: "Ashanti Revolt", correct: false },
+    ],
+  },
+  {
+    question: "Which Kenyan port city was historically important in trade?",
+    answers: [
+      { text: "Mombasa", correct: true },
+      { text: "Kisumu", correct: false },
+      { text: "Nakuru", correct: false },
+      { text: "Eldoret", correct: false },
+    ],
+  },
+  {
+    question: "Who was assassinated in 1969, causing political unrest?",
+    answers: [
+      { text: "Tom Mboya", correct: true },
+      { text: "Dedan Kimathi", correct: false },
+      { text: "Jaramogi Oginga Odinga", correct: false },
+      { text: "Robert Ouko", correct: false },
+    ],
+  },
+  {
+    question: "Which mountain is the highest in Kenya?",
+    answers: [
+      { text: "Mount Kenya", correct: true },
+      { text: "Mount Kilimanjaro", correct: false },
+      { text: "Mount Elgon", correct: false },
+      { text: "Aberdare", correct: false },
+    ],
+  },
+  {
+    question: "Which Kenyan leader was known as the 'Father of the Nation'?",
+    answers: [
+      { text: "Jomo Kenyatta", correct: true },
+      { text: "Daniel arap Moi", correct: false },
+      { text: "Mwai Kibaki", correct: false },
+      { text: "Uhuru Kenyatta", correct: false },
+    ],
+  },
+  {
+    question: "Which year did Daniel arap Moi become President?",
+    answers: [
+      { text: "1978", correct: true },
+      { text: "1982", correct: false },
+      { text: "1970", correct: false },
+      { text: "1990", correct: false },
+    ],
+  },
+  {
+    question: "Which Kenyan leader was assassinated in 1990?",
+    answers: [
+      { text: "Robert Ouko", correct: true },
+      { text: "Tom Mboya", correct: false },
+      { text: "Dedan Kimathi", correct: false },
+      { text: "Pio Gama Pinto", correct: false },
+    ],
+  },
+  {
+    question: "Which Kenyan currency replaced the East African shilling?",
+    answers: [
+      { text: "Kenyan shilling", correct: true },
+      { text: "Kenyan pound", correct: false },
+      { text: "Kenyan dollar", correct: false },
+      { text: "Kenyan franc", correct: false },
+    ],
+  },
+  {
+    question: "Which year did Kenya adopt a new constitution?",
+    answers: [
+      { text: "2010", correct: true },
+      { text: "2005", correct: false },
+      { text: "1992", correct: false },
+      { text: "2015", correct: false },
+    ],
+  },
+  {
+    question: "Which Kenyan leader was executed in 1957 for Mau Mau activities?",
+    answers: [
+      { text: "Dedan Kimathi", correct: true },
+      { text: "Tom Mboya", correct: false },
+      { text: "Pio Gama Pinto", correct: false },
+      { text: "Jaramogi Oginga Odinga", correct: false },
+    ],
+  },
+  {
+    question: "Which Kenyan city lies on Lake Victoria?",
+    answers: [
+      { text: "Kisumu", correct: true },
+      { text: "Nairobi", correct: false },
+      { text: "Mombasa", correct: false },
+      { text: "Nakuru", correct: false },
+    ],
+  },
+  {
+    question: "Which year did multiparty politics return to Kenya?",
+    answers: [
+      { text: "1991", correct: true },
+      { text: "1982", correct: false },
+      { text: "2002", correct: false },
+      { text: "2010", correct: false },
+    ],
+  },
+  {
+    question: "Which Kenyan leader was nicknamed 'Nyayo'?",
+    answers: [
+      { text: "Daniel arap Moi", correct: true },
+      { text: "Jomo Kenyatta", correct: false },
+      { text: "Mwai Kibaki", correct: false },
+      { text: "Uhuru Kenyatta", correct: false },
+    ],
+  },
+  {
+    question: "Which year did Mwai Kibaki become President?",
+    answers: [
+      { text: "2002", correct: true },
+      { text: "1997", correct: false },
+      { text: "2010", correct: false },
+      { text: "2013", correct: false },
+    ],
+  },
+  {
+    question: "Which Kenyan leader was a famous trade unionist?",
+    answers: [
+      { text: "Tom Mboya", correct: true },
+      { text: "Daniel arap Moi", correct: false },
+      { text: "Jomo Kenyatta", correct: false },
+      { text: "Mwai Kibaki", correct: false },
+    ],
+  },
+  {
+    question: "Which year did Uhuru Kenyatta become President?",
+    answers: [
+      { text: "2013", correct: true },
+      { text: "2010", correct: false },
+      { text: "2007", correct: false },
+      { text: "2017", correct: false },
+    ],
+  },
+  {
+    question: "Which Kenyan leader was the first Prime Minister?",
+    answers: [
+      { text: "Jomo Kenyatta", correct: true },
+      { text: "Daniel arap Moi", correct: false },
+      { text: "Mwai Kibaki", correct: false },
+      { text: "Uhuru Kenyatta", correct: false },
+    ],
+  },
+  {
+    question: "Which Kenyan leader was assassinated in 1965?",
+    answers: [
+      { text: "Pio Gama Pinto", correct: true },
+      { text: "Tom Mboya", correct: false },
+      { text: "Robert Ouko", correct: false },
+      { text: "Dedan Kimathi", correct: false },
+    ],
+  },
+  {
+    question: "Which year did Kenya join the United Nations?",
+    answers: [
+      { text: "1963", correct: false },
+      { text: "1964", correct: true },
+      { text: "1970", correct: false },
+      { text: "1980", correct: false },
+    ],
+  },
+  {
+    question: "Which Kenyan leader was known for the slogan 'Harambee'?",
+    answers: [
+      { text: "Jomo Kenyatta", correct: true },
+      { text: "Daniel arap Moi", correct: false },
+      { text: "Mwai Kibaki", correct: false },
+      { text: "Uhuru Kenyatta", correct: false },
+    ],
+  },
+    {
+    question: "Which year did William Ruto become President?",
+    answers: [
+      { text: "2022", correct: true },
+      { text: "2017", correct: false },
+      { text: "2013", correct: false },
+      { text: "2025", correct: false },
+    ],
+  },
+  {
+    question: "Which Kenyan leader was a famous freedom fighter captured in 1956?",
+    answers: [
+      { text: "Dedan Kimathi", correct: true },
+      { text: "Tom Mboya", correct: false },
+      { text: "Pio Gama Pinto", correct: false },
+      { text: "Robert Ouko", correct: false },
+    ],
+  },
+  {
+    question: "Which year did Kenya host the All Africa Games?",
+    answers: [
+      { text: "1987", correct: true },
+      { text: "1992", correct: false },
+      { text: "2000", correct: false },
+      { text: "2010", correct: false },
+    ],
+  },
+  {
+    question: "Which Kenyan leader was known for promoting free primary education?",
+    answers: [
+      { text: "Mwai Kibaki", correct: true },
+      { text: "Daniel arap Moi", correct: false },
+      { text: "Jomo Kenyatta", correct: false },
+      { text: "Uhuru Kenyatta", correct: false },
+    ],
+  },
+  {
+    question: "Which year did Kenya experience the post-election violence?",
+    answers: [
+      { text: "2007-2008", correct: true },
+      { text: "1992", correct: false },
+      { text: "2013", correct: false },
+      { text: "2017", correct: false },
+    ],
+  },
+  {
+    question: "Which Kenyan leader was known for the slogan 'Kazi ni Kazi'?",
+    answers: [
+      { text: "William Ruto", correct: true },
+      { text: "Uhuru Kenyatta", correct: false },
+      { text: "Mwai Kibaki", correct: false },
+      { text: "Daniel arap Moi", correct: false },
+    ],
+  },
+  {
+    question: "Which year did Kenya become a one-party state?",
+    answers: [
+      { text: "1982", correct: true },
+      { text: "1978", correct: false },
+      { text: "1991", correct: false },
+      { text: "2002", correct: false },
+    ],
+  },
+  {
+    question: "Which Kenyan leader was nicknamed 'Kenya's Iron Lady'?",
+    answers: [
+      { text: "Charity Ngilu", correct: true },
+      { text: "Martha Karua", correct: false },
+      { text: "Wangari Maathai", correct: false },
+      { text: "Phoebe Asiyo", correct: false },
+    ],
+  },
+  {
+    question: "Which Kenyan won the Nobel Peace Prize in 2004?",
+    answers: [
+      { text: "Wangari Maathai", correct: true },
+      { text: "Ngugi wa Thiong'o", correct: false },
+      { text: "Tom Mboya", correct: false },
+      { text: "Jaramogi Oginga Odinga", correct: false },
+    ],
+  },
+  {
+    question: "Which year did Kenya introduce devolved government under counties?",
+    answers: [
+      { text: "2013", correct: true },
+      { text: "2010", correct: false },
+      { text: "2007", correct: false },
+      { text: "2015", correct: false },
+    ],
+  },
+  {
+    question: "Which Kenyan leader was known for the slogan 'Tuko Pamoja'?",
+    answers: [
+      { text: "Uhuru Kenyatta", correct: true },
+      { text: "William Ruto", correct: false },
+      { text: "Mwai Kibaki", correct: false },
+      { text: "Daniel arap Moi", correct: false },
+    ],
+  },
+  {
+    question: "Which year did Kenya host Pope John Paul II?",
+    answers: [
+      { text: "1985", correct: true },
+      { text: "1990", correct: false },
+      { text: "2000", correct: false },
+      { text: "2015", correct: false },
+    ],
+  },
+  {
+    question: "Which Kenyan leader was known for the slogan 'Yote Yawezekana Bila Moi'?",
+    answers: [
+      { text: "Opposition leaders in 2002", correct: true },
+      { text: "Daniel arap Moi", correct: false },
+      { text: "Mwai Kibaki", correct: false },
+      { text: "Uhuru Kenyatta", correct: false },
+    ],
+  },
+  {
+    question: "Which year did Kenya join the African Union?",
+    answers: [
+      { text: "1963", correct: false },
+      { text: "2002", correct: true },
+      { text: "1970", correct: false },
+      { text: "1980", correct: false },
+    ],
+  },
+  {
+    question: "Which Kenyan leader was known for the slogan 'Najivunia Kuwa Mwanamke'?",
+    answers: [
+      { text: "Martha Karua", correct: true },
+      { text: "Charity Ngilu", correct: false },
+      { text: "Phoebe Asiyo", correct: false },
+      { text: "Wangari Maathai", correct: false },
+    ],
+  },
+],
+},
+];
