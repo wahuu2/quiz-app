@@ -445,43 +445,43 @@ const quizSections = [
       question: "What does 'JS' stand for?",
       answers: [
         { text: "Java Syntax", correct: false },
-        { text: "JavaScript", correct: true },
         { text: "Just Style", correct: false },
+        { text: "JavaScript", correct: true },
         { text: "JQuery Script", correct: false },
       ],
     },
     {
       question: "Which language is mainly used to structure web pages?",
       answers: [
-        { text: "HTML", correct: true },
         { text: "CSS", correct: false },
         { text: "Python", correct: false },
         { text: "C++", correct: false },
+        { text: "HTML", correct: true },
       ],
     },
     {
       question: "Which symbol is used to end a statement in JavaScript?",
       answers: [
-        { text: ";", correct: true },
         { text: ":", correct: false },
         { text: ".", correct: false },
+        { text: ";", correct: true },
         { text: ",", correct: false },
       ],
     },
     {
       question: "Which tag is used to display an image in HTML?",
       answers: [
-        { text: "<img>", correct: true },
         { text: "<image>", correct: false },
         { text: "<pic>", correct: false },
         { text: "<src>", correct: false },
+        { text: "<img>", correct: true },
       ],
     },
     {
       question: "Which operator is used for addition in most programming languages?",
       answers: [
-        { text: "+", correct: true },
         { text: "-", correct: false },
+        { text: "+", correct: true },
         { text: "*", correct: false },
         { text: "/", correct: false },
       ],
@@ -498,19 +498,19 @@ const quizSections = [
     {
       question: "Which language is commonly used for backend development?",
       answers: [
-        { text: "Python", correct: true },
         { text: "CSS", correct: false },
         { text: "HTML", correct: false },
+        { text: "Python", correct: true },
         { text: "Photoshop", correct: false },
       ],
     },
     {
       question: "Which symbol is used for comments in JavaScript?",
       answers: [
-        { text: "//", correct: true },
         { text: "##", correct: false },
         { text: "--", correct: false },
         { text: "\\\\", correct: false },
+        { text: "//", correct: true },
       ],
     },
     {
@@ -525,8 +525,8 @@ const quizSections = [
     {
       question: "Which file extension is used for JavaScript files?",
       answers: [
-        { text: ".js", correct: true },
         { text: ".java", correct: false },
+        { text: ".js", correct: true },
         { text: ".jsx", correct: false },
         { text: ".py", correct: false },
       ],
@@ -534,9 +534,9 @@ const quizSections = [
     {
       question: "Which HTML tag is used for links?",
       answers: [
-        { text: "<a>", correct: true },
         { text: "<link>", correct: false },
         { text: "<href>", correct: false },
+        { text: "<a>", correct: true },
         { text: "<url>", correct: false },
       ],
     },
@@ -553,34 +553,34 @@ const quizSections = [
       question: "What does 'JS' stand for?",
       answers: [
         { text: "Java Syntax", correct: false },
-        { text: "JavaScript", correct: true },
         { text: "Just Style", correct: false },
+        { text: "JavaScript", correct: true },
         { text: "JQuery Script", correct: false },
       ],
     },
     {
       question: "Which HTML tag is used to create a hyperlink?",
       answers: [
-        { text: "<a>", correct: true },
         { text: "<link>", correct: false },
         { text: "<href>", correct: false },
         { text: "<url>", correct: false },
+        { text: "<a>", correct: true },
       ],
     },
     {
       question: "Which symbol is used for multiplication in most programming languages?",
       answers: [
-        { text: "*", correct: true },
         { text: "x", correct: false },
         { text: "#", correct: false },
         { text: "&", correct: false },
+        { text: "*", correct: true },
       ],
     },
     {
       question: "Which HTML tag is used to display a heading?",
       answers: [
-        { text: "<h1>", correct: true },
         { text: "<head>", correct: false },
+        { text: "<h1>", correct: true },
         { text: "<title>", correct: false },
         { text: "<p>", correct: false },
       ],
@@ -588,9 +588,9 @@ const quizSections = [
     {
       question: "Which keyword is used to define a constant in JavaScript?",
       answers: [
-        { text: "const", correct: true },
         { text: "var", correct: false },
         { text: "let", correct: false },
+        { text: "const", correct: true },
         { text: "static", correct: false },
       ],
     },
@@ -606,9 +606,9 @@ const quizSections = [
     {
       question: "Which programming language is known for its snake logo?",
       answers: [
-        { text: "Python", correct: true },
         { text: "Java", correct: false },
         { text: "C#", correct: false },
+        { text: "Python", correct: true },
         { text: "Ruby", correct: false },
       ],
     },
@@ -624,10 +624,10 @@ const quizSections = [
     {
       question: "Which operator is used to compare equality in JavaScript?",
       answers: [
-        { text: "==", correct: true },
         { text: "=", correct: false },
         { text: "===", correct: true }, // both == and === are valid
         { text: "!=", correct: false },
+        { text: "==", correct: true },
       ],
     },
     {
@@ -642,17 +642,17 @@ const quizSections = [
     {
       question: "Which language is used to make web pages interactive?",
       answers: [
-        { text: "JavaScript", correct: true },
         { text: "CSS", correct: false },
         { text: "HTML", correct: false },
+        { text: "JavaScript", correct: true },
         { text: "SQL", correct: false },
       ],
     },
      {
       question: "Which HTML tag is used to create a numbered list?",
       answers: [
-        { text: "<ol>", correct: true },
         { text: "<ul>", correct: false },
+        { text: "<ol>", correct: true },
         { text: "<li>", correct: false },
         { text: "<list>", correct: false },
       ],
@@ -660,9 +660,9 @@ const quizSections = [
     {
       question: "Which symbol is used for division in most programming languages?",
       answers: [
-        { text: "/", correct: true },
         { text: "\\", correct: false },
         { text: "-", correct: false },
+        { text: "/", correct: true },
         { text: "*", correct: false },
       ],
     },
@@ -678,27 +678,27 @@ const quizSections = [
     {
       question: "Which keyword is used to declare a function in JavaScript?",
       answers: [
-        { text: "function", correct: true },
         { text: "def", correct: false },
         { text: "method", correct: false },
+        { text: "function", correct: true },
         { text: "func", correct: false },
       ],
     },
     {
       question: "Which file extension is used for HTML files?",
       answers: [
-        { text: ".html", correct: true },
         { text: ".htm", correct: true }, // both are valid
         { text: ".css", correct: false },
         { text: ".js", correct: false },
+        { text: ".html", correct: true },
       ],
     },
     {
       question: "Which programming language is mainly used for database queries?",
       answers: [
-        { text: "SQL", correct: true },
         { text: "Python", correct: false },
         { text: "JavaScript", correct: false },
+        { text: "SQL", correct: true },
         { text: "HTML", correct: false },
       ],
     },
@@ -714,10 +714,10 @@ const quizSections = [
     {
       question: "Which operator is used to check inequality in JavaScript?",
       answers: [
-        { text: "!=", correct: true },
         { text: "==", correct: false },
         { text: "=", correct: false },
         { text: "!==", correct: true }, // both != and !== are valid
+        { text: "!=", correct: true },
       ],
     },
     {
@@ -732,8 +732,8 @@ const quizSections = [
     {
       question: "Which programming language is often used for mobile app development?",
       answers: [
-        { text: "Java", correct: true },
         { text: "CSS", correct: false },
+        { text: "Java", correct: true },
         { text: "HTML", correct: false },
         { text: "SQL", correct: false },
       ],
@@ -741,27 +741,27 @@ const quizSections = [
     {
       question: "Which HTML tag is used to display an image?",
       answers: [
-        { text: "<img>", correct: true },
         { text: "<image>", correct: false },
         { text: "<pic>", correct: false },
+        { text: "<img>", correct: true },
         { text: "<src>", correct: false },
       ],
     },
     {
       question: "Which keyword is used to declare a variable in JavaScript?",
       answers: [
-        { text: "var", correct: true },
         { text: "let", correct: true }, // both valid
         { text: "int", correct: false },
+        { text: "var", correct: true },
         { text: "define", correct: false },
       ],
     },
     {
       question: "Which file extension is used for Python files?",
       answers: [
-        { text: ".py", correct: true },
         { text: ".js", correct: false },
         { text: ".java", correct: false },
+        { text: ".py", correct: true },
         { text: ".html", correct: false },
       ],
     },
@@ -777,9 +777,9 @@ const quizSections = [
     {
       question: "Which operator is used for assignment in most programming languages?",
       answers: [
-        { text: "=", correct: true },
         { text: "==", correct: false },
         { text: "===", correct: false },
+        { text: "=", correct: true },
         { text: "=>", correct: false },
       ],
     },
@@ -795,19 +795,19 @@ const quizSections = [
     {
       question: "Which language is used to style web pages?",
       answers: [
-        { text: "CSS", correct: true },
         { text: "HTML", correct: false },
         { text: "JavaScript", correct: false },
         { text: "Python", correct: false },
+        { text: "CSS", correct: true },
       ],
     },
     {
       question: "Which symbol is used for comments in Python?",
       answers: [
-        { text: "#", correct: true },
         { text: "//", correct: false },
         { text: "/* */", correct: false },
         { text: "--", correct: false },
+        { text: "#", correct: true },
       ],
     },
     {
@@ -822,18 +822,18 @@ const quizSections = [
     {
       question: "Which keyword is used to define a function in Python?",
       answers: [
-        { text: "def", correct: true },
         { text: "function", correct: false },
         { text: "method", correct: false },
         { text: "fun", correct: false },
+        { text: "def", correct: true },
       ],
     },
     {
       question: "Which HTML tag is used to create a list item?",
       answers: [
-        { text: "<li>", correct: true },
         { text: "<ul>", correct: false },
         { text: "<ol>", correct: false },
+        { text: "<li>", correct: true },
         { text: "<list>", correct: false },
       ],
     }
