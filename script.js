@@ -392,7 +392,6 @@ const quizSections = [
     {
       question: "Which is the largest country by area?",
       answers: [
-        { text: "Russia", correct: true },
         { text: "Canada", correct: false },
         { text: "China", correct: false },
         { text: "USA", correct: false },
