@@ -1282,8 +1282,9 @@ function startQuiz() {
 function showQuestion() {
   answersDisabled = false;
 
-  const currentSection = quizSections[currentSectionIndex];
+  
   const currentQuestion = currentSection.questions[currentQuestionIndex];
+  const currentSection = quizSections[currentSectionIndex];
 
   sectionTitle.textContent = currentSection.title;
   currentQuestionSpan.textContent = currentQuestionIndex + 1;
@@ -1342,8 +1343,8 @@ function nextQuestionOrSection() {
     showQuestion();
   } else {
     // section finished
-    currentSectionIndex++;
     currentQuestionIndex = 0;
+    currentSectionIndex++;
 
     if (currentSectionIndex < quizSections.length) {
       alert("Section complete! Next: " + quizSections[currentSectionIndex].title);
@@ -1354,8 +1355,9 @@ function nextQuestionOrSection() {
   }
 }
 function showResults() {
-  quizScreen.classList.remove("active");
   resultScreen.classList.add("active");
+  quizScreen.classList.remove("active");
+  
 
   finalScoreSpan.textContent = score;
 
