@@ -1227,7 +1227,6 @@ const quizSections = [
       { text: "Daniel arap Moi", correct: false },
       { text: "Mwai Kibaki", correct: false },
       { text: "Uhuru Kenyatta", correct: false },
-      { text: "Opposition leaders in 2002", correct: true },
     ],
   },
   {
@@ -1282,9 +1281,8 @@ function startQuiz() {
 function showQuestion() {
   answersDisabled = false;
 
-  
-  const currentQuestion = currentSection.questions[currentQuestionIndex];
   const currentSection = quizSections[currentSectionIndex];
+  const currentQuestion = currentSection.questions[currentQuestionIndex];
 
   sectionTitle.textContent = currentSection.title;
   currentQuestionSpan.textContent = currentQuestionIndex + 1;
@@ -1343,8 +1341,8 @@ function nextQuestionOrSection() {
     showQuestion();
   } else {
     // section finished
-    currentQuestionIndex = 0;
     currentSectionIndex++;
+    currentQuestionIndex = 0;
 
     if (currentSectionIndex < quizSections.length) {
       alert("Section complete! Next: " + quizSections[currentSectionIndex].title);
@@ -1355,9 +1353,8 @@ function nextQuestionOrSection() {
   }
 }
 function showResults() {
-  resultScreen.classList.add("active");
   quizScreen.classList.remove("active");
-  
+  resultScreen.classList.add("active");
 
   finalScoreSpan.textContent = score;
 
