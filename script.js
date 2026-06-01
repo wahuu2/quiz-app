@@ -32,19 +32,19 @@ const quizSections = [
     {
       question: "Which continent is known as the 'Dark Continent'?",
       answers: [
-        { text: "Africa", correct: true },
         { text: "Asia", correct: false },
         { text: "Europe", correct: false },
+        { text: "Africa", correct: true },
         { text: "Australia", correct: false },
       ],
     },
     {
       question: "What is the capital city of Japan?",
       answers: [
-        { text: "Tokyo", correct: true },
         { text: "Kyoto", correct: false },
         { text: "Osaka", correct: false },
         { text: "Nagoya", correct: false },
+        { text: "Tokyo", correct: true },
       ],
     },
     {
@@ -59,8 +59,8 @@ const quizSections = [
     {
       question: "Who wrote 'Romeo and Juliet'?",
       answers: [
-        { text: "William Shakespeare", correct: true },
         { text: "Charles Dickens", correct: false },
+        { text: "William Shakespeare", correct: true },
         { text: "Jane Austen", correct: false },
         { text: "Mark Twain", correct: false },
       ],
@@ -68,19 +68,19 @@ const quizSections = [
     {
       question: "Which country is famous for the Eiffel Tower?",
       answers: [
-        { text: "France", correct: true },
         { text: "Italy", correct: false },
         { text: "Spain", correct: false },
+        { text: "France", correct: true },
         { text: "Germany", correct: false },
       ],
     },
     {
       question: "Which gas do humans need to breathe?",
       answers: [
-        { text: "Oxygen", correct: true },
         { text: "Carbon dioxide", correct: false },
         { text: "Nitrogen", correct: false },
         { text: "Hydrogen", correct: false },
+        { text: "Oxygen", correct: true },
       ],
     },
     {
@@ -95,8 +95,8 @@ const quizSections = [
     {
       question: "Which instrument has black and white keys?",
       answers: [
-        { text: "Piano", correct: true },
         { text: "Guitar", correct: false },
+        { text: "Piano", correct: true },
         { text: "Violin", correct: false },
         { text: "Drums", correct: false },
       ],
@@ -104,26 +104,26 @@ const quizSections = [
     {
       question: "Which country invented pizza?",
       answers: [
-        { text: "Italy", correct: true },
         { text: "France", correct: false },
         { text: "USA", correct: false },
         { text: "Spain", correct: false },
+        { text: "Italy", correct: true },
       ],
     },
     {
       question: "Which planet is closest to the sun?",
       answers: [
-        { text: "Mercury", correct: true },
         { text: "Venus", correct: false },
         { text: "Earth", correct: false },
+        { text: "Mercury", correct: true },
         { text: "Mars", correct: false },
       ],
     },
     {
       question: "Which animal is known as the 'King of the Jungle'?",
       answers: [
-        { text: "Lion", correct: true },
         { text: "Tiger", correct: false },
+        { text: "Lion", correct: true },
         { text: "Elephant", correct: false },
         { text: "Bear", correct: false },
       ],
@@ -140,19 +140,19 @@ const quizSections = [
     {
       question: "Which country is known as the Land of the Rising Sun?",
       answers: [
-        { text: "Japan", correct: true },
         { text: "China", correct: false },
         { text: "Thailand", correct: false },
+         { text: "Japan", correct: true },
         { text: "India", correct: false },
       ],
     },
     {
       question: "Which shape has three sides?",
       answers: [
-        { text: "Triangle", correct: true },
         { text: "Square", correct: false },
         { text: "Circle", correct: false },
         { text: "Rectangle", correct: false },
+        { text: "Triangle", correct: true },
       ],
     },
     {
@@ -167,8 +167,8 @@ const quizSections = [
     {
       question: "Which sport uses a bat and ball?",
       answers: [
-        { text: "Cricket", correct: true },
         { text: "Football", correct: false },
+        { text: "Cricket", correct: true },
         { text: "Basketball", correct: false },
         { text: "Tennis", correct: false },
       ],
@@ -176,8 +176,8 @@ const quizSections = [
     {
       question: "Which month has 28 days in common years?",
       answers: [
-        { text: "February", correct: true },
         { text: "March", correct: false },
+        { text: "February", correct: true },
         { text: "April", correct: false },
         { text: "June", correct: false },
       ],
@@ -185,17 +185,17 @@ const quizSections = [
     {
       question: "Which animal produces milk?",
       answers: [
-        { text: "Cow", correct: true },
         { text: "Dog", correct: false },
         { text: "Cat", correct: false },
+        { text: "Cow", correct: true },
         { text: "Horse", correct: false },
       ],
     },
     {
       question: "Which country is famous for pyramids?",
       answers: [
-        { text: "Egypt", correct: true },
         { text: "Mexico", correct: false },
+        { text: "Egypt", correct: true },
         { text: "India", correct: false },
         { text: "China", correct: false },
       ],
@@ -203,26 +203,26 @@ const quizSections = [
     {
       question: "Which is the tallest mountain in the world?",
       answers: [
-        { text: "Mount Everest", correct: true },
         { text: "Mount Kilimanjaro", correct: false },
         { text: "Mount Kenya", correct: false },
         { text: "Mount Fuji", correct: false },
+        { text: "Mount Everest", correct: true },
       ],
     },
     {
       question: "Which animal is the largest mammal?",
       answers: [
-        { text: "Blue Whale", correct: true },
         { text: "Elephant", correct: false },
         { text: "Giraffe", correct: false },
+        { text: "Blue Whale", correct: true },
         { text: "Hippo", correct: false },
       ],
     },
     {
       question: "Which country is famous for sushi?",
       answers: [
-        { text: "Japan", correct: true },
         { text: "China", correct: false },
+        { text: "Japan", correct: true },
         { text: "Thailand", correct: false },
         { text: "Korea", correct: false },
       ],
@@ -239,8 +239,8 @@ const quizSections = [
     {
       question: "Which country is famous for the Great Wall?",
       answers: [
-        { text: "China", correct: true },
         { text: "India", correct: false },
+        { text: "China", correct: true },
         { text: "Japan", correct: false },
         { text: "Korea", correct: false },
       ],
@@ -248,8 +248,8 @@ const quizSections = [
     {
       question: "Which metal is liquid at room temperature?",
       answers: [
-        { text: "Mercury", correct: true },
         { text: "Iron", correct: false },
+        { text: "Mercury", correct: true },
         { text: "Gold", correct: false },
         { text: "Silver", correct: false },
       ],
@@ -266,17 +266,17 @@ const quizSections = [
     {
       question: "Which is the fastest land animal?",
       answers: [
-        { text: "Cheetah", correct: true },
         { text: "Lion", correct: false },
         { text: "Horse", correct: false },
         { text: "Tiger", correct: false },
+        { text: "Cheetah", correct: true },
       ],
     },
        {
       question: "Which country is famous for maple syrup?",
       answers: [
-        { text: "Canada", correct: true },
         { text: "USA", correct: false },
+        { text: "Canada", correct: true },
         { text: "UK", correct: false },
         { text: "France", correct: false },
       ],
@@ -293,17 +293,17 @@ const quizSections = [
     {
       question: "Which country is famous for the Taj Mahal?",
       answers: [
-        { text: "India", correct: true },
         { text: "Pakistan", correct: false },
         { text: "Nepal", correct: false },
         { text: "Bangladesh", correct: false },
+        { text: "India", correct: true },
       ],
     },
     {
       question: "Which is the longest river in the world?",
       answers: [
-        { text: "Nile", correct: true },
         { text: "Amazon", correct: false },
+        { text: "Nile", correct: true },
         { text: "Yangtze", correct: false },
         { text: "Mississippi", correct: false },
       ],
@@ -311,17 +311,17 @@ const quizSections = [
     {
       question: "Which country is famous for samba dance?",
       answers: [
-        { text: "Brazil", correct: true },
         { text: "Argentina", correct: false },
         { text: "Spain", correct: false },
+        { text: "Brazil", correct: true },
         { text: "Mexico", correct: false },
       ],
     },
     {
       question: "Which is the largest island in the world?",
       answers: [
-        { text: "Greenland", correct: true },
         { text: "Madagascar", correct: false },
+        { text: "Greenland", correct: true },
         { text: "Borneo", correct: false },
         { text: "Sumatra", correct: false },
       ],
@@ -329,44 +329,44 @@ const quizSections = [
     {
       question: "Which country is famous for the Statue of Liberty?",
       answers: [
-        { text: "USA", correct: true },
         { text: "France", correct: false },
         { text: "UK", correct: false },
+        { text: "USA", correct: true },
         { text: "Germany", correct: false },
       ],
     },
     {
       question: "Which is the largest continent?",
       answers: [
-        { text: "Asia", correct: true },
         { text: "Africa", correct: false },
         { text: "Europe", correct: false },
         { text: "Australia", correct: false },
+        { text: "Asia", correct: true },
       ],
     },
     {
       question: "Which country is famous for Mount Fuji?",
       answers: [
-        { text: "Japan", correct: true },
         { text: "China", correct: false },
         { text: "Korea", correct: false },
+        { text: "Japan", correct: true },
         { text: "Thailand", correct: false },
       ],
     },
     {
       question: "Which is the largest ocean?",
       answers: [
-        { text: "Pacific Ocean", correct: true },
         { text: "Atlantic Ocean", correct: false },
         { text: "Indian Ocean", correct: false },
         { text: "Arctic Ocean", correct: false },
+        { text: "Pacific Ocean", correct: true },
       ],
     },
     {
       question: "Which country is famous for Big Ben?",
       answers: [
-        { text: "UK", correct: true },
         { text: "France", correct: false },
+        { text: "UK", correct: true },
         { text: "Germany", correct: false },
         { text: "Italy", correct: false },
       ],
@@ -383,9 +383,9 @@ const quizSections = [
     {
       question: "Which country is famous for the Colosseum?",
       answers: [
-        { text: "Italy", correct: true },
         { text: "Spain", correct: false },
         { text: "France", correct: false },
+        { text: "Italy", correct: true },
         { text: "Greece", correct: false },
       ],
     },
@@ -396,6 +396,7 @@ const quizSections = [
         { text: "Canada", correct: false },
         { text: "China", correct: false },
         { text: "USA", correct: false },
+        { text: "Russia", correct: true },
       ],
     },
     {
@@ -410,8 +411,8 @@ const quizSections = [
     {
       question: "Which is the smallest country in the world?",
       answers: [
-        { text: "Vatican City", correct: true },
         { text: "Monaco", correct: false },
+        { text: "Vatican City", correct: true },
         { text: "San Marino", correct: false },
         { text: "Liechtenstein", correct: false },
       ],
