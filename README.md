@@ -55,4 +55,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## 🙏 Acknowledgements
 - Inspired by interactive learning apps
 - Emoji icons for a friendly and engaging UI
-```
